@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Our Team</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 text-gray-800 font-sans">
 
+@extends('layouts.app')
+@section('title','team')
+
+@section('content')
   <!-- Header Section -->
   <section class="py-16 bg-white text-center">
     <h1 class="text-4xl font-bold text-blue-700 mb-4">Meet Our Team</h1>
@@ -51,6 +46,4 @@
   <footer class="bg-white text-center py-6 text-gray-600 border-t mt-12">
     &copy; 2025 MyWebsite. All rights reserved.
   </footer>
-
-</body>
-</html>
+@endsection

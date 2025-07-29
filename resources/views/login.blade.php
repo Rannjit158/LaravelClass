@@ -1,13 +1,9 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sign In</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+@extends('layouts.app')
+@section('title','signin')
+
+@section('content')
+<div class="bg-gray-100 flex items-center justify-center min-h-screen">
 
   <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md">
     <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">Sign In</h2>
@@ -43,5 +39,5 @@
     </p>
   </div>
 
-</body>
-</html>
+</div>
+@endsection

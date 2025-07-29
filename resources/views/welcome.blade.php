@@ -1,31 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f7fa;
-            color: #333;
-            text-align: center;
-            padding: 100px;
-        }
-        h1 {
-            color: #4CAF50;
-        }
-        a {
-            color: #3490dc;
-            text-decoration: none;
-            margin-top: 20px;
-            display: inline-block;
-        }
-    </style>
-</head>
-<body>
-    <h1>Welcome to My Laravel App</h1>
-    <p>This is the welcome page.</p>
-    <a href="{{ url('/home') }}">Go to Home Page</a>
-</body>
-</html>
+@extends('layouts.app')
+@section('title','')
+
+
+@section('content')
+<div class="bg-gray-100 text-gray-800 flex items-center justify-center min-h-screen font-sans">
+
+    <div class="text-center">
+        <h1 class="text-4xl font-bold text-green-600 mb-4">Welcome to My Laravel App</h1>
+        <p class="text-lg mb-6">This is the welcome page.</p>
+        <a href="{{ route('home') }}" class="text-blue-600 hover:underline text-base">
+            Go to Home Page
+        </a>
+    </div>
+
+</div>
+@endsection
+

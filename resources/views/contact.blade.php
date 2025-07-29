@@ -1,24 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 text-gray-800 font-sans">
 
-    <!-- Contact Header -->
+@extends('layouts.app')
+@section('title','contact')
+
+@section('content')
+
     <section class="py-16 bg-white text-center">
         <h1 class="text-4xl font-bold text-blue-700 mb-4">Contact Us</h1>
         <p class="text-lg text-gray-600">We’d love to hear from you. Please fill out the form below.</p>
     </section>
 
-    <!-- Contact Form -->
+
     <section class="py-10">
         <div class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-md">
             <form action="#" method="POST" class="space-y-6">
-                @csrf <!-- Blade directive for CSRF protection -->
+
 
                 <div>
                     <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
@@ -46,10 +41,9 @@
         </div>
     </section>
 
-    <!-- Footer -->
+
     <footer class="bg-white text-center py-6 text-gray-600 border-t mt-12">
         &copy; 2025 YourWebsite. All rights reserved.
     </footer>
+    @endsection
 
-</body>
-</html>
