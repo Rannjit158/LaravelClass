@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Ranjit Rajbanshi",
+    "email": "ranjit@example.com",
+    "phone": "9844622904",
+    "age": 25,
+    "gender": "male",
+    "address": "Kathmandu",
+    "position": "Developer",
+    "education": "BSc.CSIT"
+  },
+  {
+    "name": "Aarav Shrestha",
+    "email": "aarav@example.com",
+    "phone": "9811001100",
+    "age": 26,
+    "gender": "male",
+    "address": "Lalitpur",
+    "position": "UI/UX Designer",
+    "education": "BSc.CSIT"
+  },
+  {
+    "name": "Sita Adhikari",
+    "email": "sita@example.com",
+    "phone": "9801010101",
+    "age": 23,
+    "gender": "female",
+    "address": "Bhaktapur",
+    "position": "QA Tester",
+    "education": "BSc.CSIT"
+  },
+  {
+    "name": "Kamal Thapa",
+    "email": "kamal@example.com",
+    "phone": "9841234567",
+    "age": 28,
+    "gender": "male",
+    "address": "Pokhara",
+    "position": "Project Manager",
+    "education": "BSc.CSIT"
+  },
+  {
+    "name": "Anita Gurung",
+    "email": "anita@example.com",
+    "phone": "9856781234",
+    "age": 27,
+    "gender": "female",
+    "address": "Chitwan",
+    "position": "Marketing Officer",
+    "education": "BSc.CSIT"
+  },
+  {
+    "name": "Nabin Karki",
+    "email": "nabin@example.com",
+    "phone": "9849988771",
+    "age": 29,
+    "gender": "male",
+    "address": "Dharan",
+    "position": "Software Engineer",
+    "education": "BSc.CSIT"
+  },
+  {
+    "name": "Manita Lama",
+    "email": "manita@example.com",
+    "phone": "9812123456",
+    "age": 24,
+    "gender": "female",
+    "address": "Hetauda",
+    "position": "Business Analyst",
+    "education": "BSc.CSIT"
+  },
+  {
+    "name": "Suresh Mahato",
+    "email": "suresh@example.com",
+    "phone": "9808765432",
+    "age": 30,
+    "gender": "male",
+    "address": "Janakpur",
+    "position": "Tech Lead",
+    "education": "BSc.CSIT"
+  },
+  {
+    "name": "Pramila KC",
+    "email": "pramila@example.com",
+    "phone": "9854455666",
+    "age": 26,
+    "gender": "female",
+    "address": "Nepalgunj",
+    "position": "Support Engineer",
+    "education": "BSc.CSIT"
+  },
+  {
+    "name": "Bikash Joshi",
+    "email": "bikash@example.com",
+    "phone": "9847778899",
+    "age": 32,
+    "gender": "male",
+    "address": "Butwal",
+    "position": "Trainer",
+    "education": "BSc.CSIT"
+  }
+]

@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\PageListController;
+use App\Http\Controllers\CollegueController;
 
 use Illuminate\Support\Facades\Route;
 
@@ -7,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageListController::class, 'welcome']);
 
-Route::get('/home', [PageListController::class, 'home'])->name('home');
+Route::get('/homess', [PageListController::class, 'home'])->name('home');
 Route::get('/team', [PageListController::class, 'team']);
 
 Route::get('/about', [PageListController::class, 'about']);
@@ -23,5 +24,4 @@ Route::get('/register', [PageListController::class, 'register']);
     echo $username ?? 'No username';
 });*/
 
-Route ::view('register','/register');
-
+Route::get('/collegue',[CollegueController::class,'collegue']);
