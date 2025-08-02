@@ -24,4 +24,4 @@ Route::get('/register', [PageListController::class, 'register']);
     echo $username ?? 'No username';
 });*/
 
-Route::get('/collegue',[CollegueController::class,'collegue']);
+Route::get('/collegue',[CollegueController::class,'collegue'])->name('collegue');
