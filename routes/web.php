@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageListController::class, 'welcome']);
 
-Route::get('/homess', [PageListController::class, 'home'])->name('home');
+Route::get('/home', [PageListController::class, 'home'])->name('home');
 Route::get('/team', [PageListController::class, 'team']);
 
 Route::get('/about', [PageListController::class, 'about']);
