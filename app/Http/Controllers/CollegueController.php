@@ -14,9 +14,11 @@ $collegue=DB::table('collegues')->get();
 return view('collegue',['collegue'=>$collegue]);
 }
 public function deleteCollegue(){
-    $collegue=DB::table('collegue')
-    ->where('id',5)
-    ->delet();
+    $collegue=DB::table('collegues')
+    ->where('id',10)
+    ->delete();
+    
+
 }
 
 }
