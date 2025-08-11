@@ -27,6 +27,7 @@ Route::get('/register', [PageListController::class, 'register']);
 
 Route::get('/collegue',[CollegueController::class,'collegue'])->name('collegue');
 Route::get('/collegue/delete',[CollegueController::class,'deleteCollegue'])->name('collegue.delete');
+Route::get('/collegue/update',[CollegueController::class,'updateCollegue'])->name('collegue.update');
 
 
 

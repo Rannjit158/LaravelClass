@@ -17,9 +17,17 @@ public function deleteCollegue(){
     $collegue=DB::table('collegues')
     ->where('id',10)
     ->delete();
-    
-
 }
 
+
+public function updateCollegue(){
+    $collegue=DB::table('collegues')
+    ->where('id',7)
+    ->update([
+        'education'=>'BCA'
+    ]);
+
+
+}
 }
 
