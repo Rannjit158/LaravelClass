@@ -10,6 +10,7 @@
             <table class="min-w-full bg-white rounded-lg shadow-lg">
                 <thead class="bg-blue-500 text-white">
                     <tr>
+                        <th class="py-3 px-4 text-left">ID</th>
                         <th class="py-3 px-4 text-left">Name</th>
                         <th class="py-3 px-4 text-left">Email</th>
                         <th class="py-3 px-4 text-left">Phone</th>
@@ -23,6 +24,7 @@
                 <tbody>
                     @foreach ($collegue as $c)
                     <tr class="border-b hover:bg-gray-100 transition">
+                        <td class="py-3 px-4">{{ $c->id }}</td>
                         <td class="py-3 px-4">{{ $c->name }}</td>
                         <td class="py-3 px-4">{{ $c->email }}</td>
                         <td class="py-3 px-4">{{ $c->phone }}</td>
